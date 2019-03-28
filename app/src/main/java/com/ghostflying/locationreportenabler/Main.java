@@ -20,7 +20,8 @@ public class Main implements IXposedHookLoadPackage {
     private static final List<String> HOOKED_PKG = new ArrayList<>(Arrays.asList(
             "com.google.android.gms",
             "com.google.android.apps.maps",
-            "com.example.ghostflying.testapp"
+            "com.example.ghostflying.testapp",
+            "com.zhiliaoapp.musically"
         )
     );
 
